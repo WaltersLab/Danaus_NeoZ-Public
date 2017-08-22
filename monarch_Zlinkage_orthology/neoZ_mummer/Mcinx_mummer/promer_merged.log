@@ -1,0 +1,21 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "Mcinx_promer.aaref" of length 12486438
+# construct suffix tree for sequence of length 12486438
+# (maximum reference length is 2305843009213693948)
+# (maximum query length is 18446744073709551615)
+# process 124864 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /nfs/tools/cluster/system/pkg/mummer/MUMmer3.23/mummer Mcinx_promer.aaref 16.23
+# reading input file "Mcinx_promer.aaqry" of length 17962021
+# matching query-file "Mcinx_promer.aaqry"
+# against subject-file "Mcinx_promer.aaref"
+# COMPLETETIME /nfs/tools/cluster/system/pkg/mummer/MUMmer3.23/mummer Mcinx_promer.aaref 43.85
+# SPACE /nfs/tools/cluster/system/pkg/mummer/MUMmer3.23/mummer Mcinx_promer.aaref 29.52
+4: FINISHING DATA
+gnuplot 4.2 patchlevel 6 
+Writing filtered delta file Mcinx_promer_dotplot.filter
+Reading delta file Mcinx_promer_dotplot.filter
+Writing plot files Mcinx_promer_dotplot.fplot, Mcinx_promer_dotplot.rplot
+Writing gnuplot script Mcinx_promer_dotplot.gp
+Rendering plot Mcinx_promer_dotplot.ps

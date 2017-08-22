@@ -1,0 +1,3 @@
+perl get_longest_transcript_Hmel.pl /data/jwalters/references/Hmel1-1_Release_20120601/Gene_sequences/heliconius_melpomene_v1.1_primaryScaffs_Protein.faa  Hmel_prots_unique.fas
+perl get_longest_transcript_Dplex.pl /data/jwalters/references/Monarch/Dp_geneset_OGS2_pep.fasta Dplex_prots_unique.fas
+

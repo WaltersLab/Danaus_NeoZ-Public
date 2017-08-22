@@ -1,0 +1,7 @@
+15130	total number of protein coding genes in target
+14427	number of target genes assigned to chromosome
+0.954	percent of target genes assigned to chromosome
+514	number of target scaffolds assigned to chromosomes
+8190	number of 1:1 orthologs identified
+7150	number of 1:1 orthologs assigned to reference chromosome
+0.873	percent of 1:1 orthologs assigned to reference chromosome

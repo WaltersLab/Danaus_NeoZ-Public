@@ -1,0 +1,6 @@
+Proteinortho version 5.06 - An orthology detection tool
+*******************************************************
+Using 8 CPU threads, Detected NCBI BLAST version 2.2.27+
+Checking input files
+Error: File ' ' not found!
+/var/spool/torque/mom_priv/jobs/7294847.fusion.SC: line 7: /scratch/jwalters/monarch_Zlinkage_orthology/bombyx_refseq_proteins_accession.fa: Permission denied

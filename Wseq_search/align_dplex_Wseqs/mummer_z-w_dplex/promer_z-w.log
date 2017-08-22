@@ -1,0 +1,33 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "z-w_promer.aaref" of length 36196264
+# construct suffix tree for sequence of length 36196264
+# (maximum reference length is 536870908)
+# (maximum query length is 4294967295)
+# process 361962 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummer z-w_promer.aaref 70.64
+# reading input file "z-w_promer.aaqry" of length 730305
+# matching query-file "z-w_promer.aaqry"
+# against subject-file "z-w_promer.aaref"
+# COMPLETETIME /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummer z-w_promer.aaref 71.98
+# SPACE /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummer z-w_promer.aaref 35.80
+4: FINISHING DATA
+defined(%hash) is deprecated at /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummerplot line 884.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummerplot line 894.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummerplot line 981.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummerplot line 991.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummerplot line 1034.
+	(Maybe you should just omit the defined()?)
+defined(%hash) is deprecated at /nfs/apps/7/arch/generic/MUMmer/3.23/bin/mummerplot line 1044.
+	(Maybe you should just omit the defined()?)
+gnuplot 4.6 patchlevel 2
+Writing filtered delta file z-w_promer_dotplot.filter
+Reading delta file z-w_promer_dotplot.filter
+Writing plot files z-w_promer_dotplot.fplot, z-w_promer_dotplot.rplot
+Writing gnuplot script z-w_promer_dotplot.gp
+Rendering plot z-w_promer_dotplot.ps

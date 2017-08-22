@@ -1,0 +1,35 @@
+Part 1:  Average scaffold coverage.
+
+1) Andrew aligned fastq files and calculated median coverage per scaffold with bedtools
+2) "premiumzscaffolds_JRW.R" reads in median coverage per scaffold for 3xM and 3xF samples. It identifies putative Z-linked scaffolds via coverage, reporting:
+-"Dplex_Zscaffs.txt", a list of z-linked scaffolds.
+-"NormCov_DataFrame.R", normalized coverage dataframe for liftover script.
+-"M-FCovRatio_N90all.pdf", plot of ratio by scaffold length
+-"coverage_hist.pdf", histogram plot of coverage ratios.
+
+Part 2: Liftover & Bubbleplots
+1) Longest transcript was extracted as representative, translated to protein for proteinortho
+2) Proteinortho run for each pairwise comparison: M.cinxia, H.melpomene, B.mori
+3) "liftover_bubble_functions.R" contains generalized functions for doing liftover and bubble functions
+4) "Dplex_liftovers.R" applies liftovers and generates chromosomal assignments for Dplex based on orthology.  Also generates outputs, for each species:
+-Dplex gene and scaffold assignets to chromosome
+-Plots of M:F coverage by scaffold, with chr21 & Z scaffs highlighted
+-Bubbleplots of homology.
+
+Part 3: Detailed scaffold coverage analysis.
+
+1) Andrew generated basepair resolution covarage for  4 scaffolds: 01, 28, 44, and 403.
+2) "byscaffoldcoverage_JRW.R" normalizes coverage by genome medians and plots differences between males and females.
+3) this script also localizes breakpoints based on the max(difference) in adjacent windows of M:F coverage.
+Outputs include:
+-"max_mf_window_diff.pdf", plot of absolute differences in adjacent windows for finding ZA breakpoints
+-"coverage_by_posxn.pdf", plots of Male and Female coverage
+-"ZA_chimera_breaks.R", small data dump given predicted breakpoints
+
+Part 4: reassigning scaffolds & genes to chromosomes.
+1) "ZAbreaks_in_genes.R", a script to test whether the breaks fall inside genes.
+2) revises gene-chr assignments from M.cinxia 
+Outputs inlude:
+-"Dplex_chr-gene-scaff_updated.txt", updated list of chr-gene-scaff set.
+-"Dplex_GenePerChr_updated.txt", count of genes tabulated by chromosome.
+
